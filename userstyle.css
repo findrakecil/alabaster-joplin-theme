@@ -1,0 +1,102 @@
+/* For styling the rendered Markdown */
+
+/**
+ * =============================================================================
+ *  Alabaster Joplin Theme
+ * =============================================================================
+ * 
+ *  Joplin version 3.2.12
+ *
+ *  Author: Liffindra Angga Zaaldian
+ *  GitHub: https://github.com/findrakecil/alabaster-joplin-theme
+ *
+ *  Credits:
+ *  - Alabaster theme for Highlight.js https://github.com/andrew--r/hljs-alabaster
+ */
+
+.hljs {
+  background: #f7f7f7;
+  color: #000;
+  font-size: small;
+  padding: 0.5rem;
+}
+
+.hljs-keyword,
+.hljs-built_in,
+.hljs-type,
+.hljs-operator,
+.hljs-property,
+.hljs-char.escape_,
+.hljs-subst,
+.hljs-symbol,
+.hljs-variable,
+.hljs-params,
+.hljs-doctag,
+.hljs-meta,
+.hljs-meta-keyword,
+.hljs-section,
+.hljs-tag,
+.hljs-name,
+.hljs-attribute,
+.hljs-selector-tag,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-template-tag,
+.hljs-template-variable {
+  color: #000000;
+}
+
+.hljs-punctuation {
+  color: #777777;
+}
+
+.hljs-comment {
+  color: #AA3731;
+}
+
+.hljs-regexp,
+.hljs-string,
+.hljs-meta-string,
+.hljs-attr {
+  color: #448C27;
+}
+
+.hljs-number,
+.hljs-literal {
+  color: #7A3E9D;
+}
+
+.hljs-class,
+.hljs-function,
+.hljs-title,
+.hljs-title.class_,
+.hljs-title.class_.inherited__,
+.hljs-title.function_,
+.hljs-title.function_.invoke__ {
+  color: #325CC0;
+}
+
+.hljs-addition {
+  background-color: #DDFFDD;
+  color: #434343;
+}
+
+.hljs-deletion {
+  background-color: #FFDDDD;
+  color: #434343;
+}
+
+/* Fixes */
+.hljs-function .hljs-params {
+  color: #000000;
+}
+
+.hljs-class .hljs-title {
+  color: #325CC0;
+}
+
+.hljs-literal .hljs-keyword {
+  color: #7A3E9D;
+}

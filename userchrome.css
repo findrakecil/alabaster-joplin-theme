@@ -1,0 +1,57 @@
+/* For styling the entire Joplin app (except the rendered Markdown, which is defined in `userstyle.css`) */
+
+/**
+ * =============================================================================
+ *  Alabaster Joplin Theme
+ * =============================================================================
+ * 
+ *  Joplin version 3.2.12
+ *
+ *  Author: Liffindra Angga Zaaldian
+ *  GitHub: https://github.com/findrakecil/alabaster-joplin-theme
+ */
+
+/**
+ * -----------------------------------------------------------------------------
+ *  Sidebar - Notebook list, tags
+ * -----------------------------------------------------------------------------
+ */
+
+.sidebar {
+  background-color: #F0F0F0;
+}
+
+.sidebar-header-container .icon-notebooks,
+.sidebar-header-container .icon-tags,
+.sidebar-header-container>div>span,
+.new-folder-button,
+.list-item-container .icon-notes,
+.list-item-container i,
+.list-item-container .list-item,
+.sidebar-expand-link {
+  color: #000000 !important;
+}
+
+.list-item-container:hover {
+  background-color: #E6E6E6 !important;
+}
+
+.list-item-container.selected {
+  background-color: #DDDDDD !important;
+}
+
+.sidebar>div:last-child>button {
+  background-color: #325CC0 !important;
+  border-color: #325CC0 !important;
+  color: #F7F7F7 !important;
+}
+
+/**
+ * -----------------------------------------------------------------------------
+ *  Note list
+ * -----------------------------------------------------------------------------
+ */
+
+.note-list-item:hover {
+  background-color: #E6E6E6 !important;
+}
