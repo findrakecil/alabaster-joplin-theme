@@ -17,12 +17,12 @@
  * -----------------------------------------------------------------------------
  */
 
-.sidebar {
+ .sidebar {
   background-color: #F0F0F0;
 }
 
-.sidebar-header-container .icon-notebooks,
-.sidebar-header-container .icon-tags,
+.icon-notebooks,
+.icon-tags,
 .sidebar-header-container>div>span,
 .new-folder-button,
 .list-item-container .icon-notes,
@@ -40,6 +40,16 @@
   background-color: #DDDDDD !important;
 }
 
+.note-count-label {
+  background-color: #000000 !important;
+  border-radius: 0.25rem;
+  color: #F7F7F7 !important;
+  font-size: smaller;
+  font-weight: bold;
+  margin-left: 0.5rem;
+  padding: 0.125rem 0.375rem;
+}
+
 .sidebar>div:last-child>button {
   background-color: #325CC0 !important;
   border-color: #325CC0 !important;
@@ -51,6 +61,17 @@
  *  Note list
  * -----------------------------------------------------------------------------
  */
+
+.new-note-button {
+  background-color: #325CC0 !important;
+  border-color: #325CC0 !important;
+  color: #F7F7F7 !important;
+}
+
+.new-todo-button>span,
+.icon-search {
+  color: #325CC0 !important;
+}
 
 .note-list-item:hover {
   background-color: #E6E6E6 !important;
