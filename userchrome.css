@@ -32,6 +32,15 @@
   color: #000000 !important;
 }
 
+.all-notes.-selected:hover {
+  background-color: #000000 !important;
+}
+
+.all-notes.-selected .icon-notes,
+.all-notes.-selected .list-item {
+  color: #F7F7F7 !important;
+}
+
 .list-item-container:hover {
   background-color: #E6E6E6 !important;
 }
@@ -75,4 +84,14 @@
 
 .note-list-item:hover {
   background-color: #E6E6E6 !important;
+}
+
+/**
+ * -----------------------------------------------------------------------------
+ *  Note content
+ * -----------------------------------------------------------------------------
+ */
+
+.note-editor-wrapper .icon-notebooks {
+  color: #F7F7F7 !important;
 }
