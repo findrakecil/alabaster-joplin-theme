@@ -59,7 +59,7 @@
   padding: 0.125rem 0.375rem;
 }
 
-/* Sync button on bottom left */
+/* Sync button on bottom left =============================================== */
 .sidebar>div:last-child>button {
   background-color: #325CC0 !important;
   border-color: #325CC0 !important;
